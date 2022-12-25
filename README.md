@@ -21,7 +21,7 @@ To use the extension:
 
 ## Development
 
-This extension was developed using OpenAI's ChatGPT Dec 15 Version. I don't know any TypeScript or JavaScript and don't know how to develop a VS Code extension. I used ChatGPT as an experiment and developed the extension in about three hours. It explained me everything from installing the necessary tools to how to upload it. The AI needed my guidance to fix a few bugs, but it wrote almost everything by itself. It also wrote most of this file.
+This extension was developed using OpenAI's ChatGPT Dec 15 Version. I don't know any TypeScript and don't know how to develop a VS Code extension. I used ChatGPT as an experiment and developed the extension in about three hours. It explained me everything from installing the necessary tools to how to upload it. The AI needed my guidance to fix a few bugs, but it wrote almost everything by itself. It also wrote most of the documentation.
 
 ## License
 
