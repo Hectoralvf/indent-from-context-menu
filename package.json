@@ -3,13 +3,18 @@
   "displayName": "Indent from Context Menu",
   "description": "Adds to the context menu the ability to indent the selected code lines",
 	"publisher": "hectoralvf",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.74.0"
   },
-  "categories": [
-    "Other"
-  ],
+	"license": "MIT",
+	"categories": [
+		"Other"
+	],
+	"repository": {
+		"type": "git"
+	},
+  "icon": "./images/icon-128x128.png",
   "activationEvents": [
     "onCommand:extension.indentRight",
     "onCommand:extension.indentLeft"

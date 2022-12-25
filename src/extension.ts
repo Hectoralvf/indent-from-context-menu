@@ -1,13 +1,16 @@
-// The module 'vscode' contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
+/**
+ * File: extension.ts
+ * Description: Extension that adds the ability to indent and unindent code lines using the context menu.
+ * Author: Héctor Álvarez Fernández
+ * License: MIT
+ */
+
 import * as vscode from 'vscode';
 
-// This method is called when the extension is activated
 export function activate(context: vscode.ExtensionContext) {
 
-	// Use the console to output diagnostic information (console.log) and errors (console.error)
-	// This line of code will only be executed once when your extension is activated
 	console.log('Extension "indent-from-context-menu" is active!');
+
 
 	vscode.commands.registerCommand('extension.indentRight', () => {
 		const editor = vscode.window.activeTextEditor;
@@ -43,6 +46,7 @@ export function activate(context: vscode.ExtensionContext) {
 		  });
 		}
 	  });
+
 
 	  vscode.commands.registerCommand('extension.indentLeft', () => {
 		const editor = vscode.window.activeTextEditor;
@@ -88,5 +92,4 @@ export function activate(context: vscode.ExtensionContext) {
 
 }
 
-// This method is called when your extension is deactivated
 export function deactivate() {}

@@ -1,9 +1,27 @@
-# Change Log
+# Changelog for Indent from Context Menu Extension
 
-All notable changes to the "indent-from-context-menu" extension will be documented in this file.
+## Table of Contents
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- [Introduction](#introduction)
+- [List of Changes](#list-of-changes)
+- [Closing Remarks](#closing-remarks)
 
-## [Unreleased]
+## Introduction
 
-- Initial release
+This changelog lists the changes made to the Indent from Context Menu Extension over time.
+
+## List of Changes
+
+- **v1.0.0** (25-12-2022 *Merry Christmas!!*)
+  - Initial release of the extension.
+  - Added the commands `extension.indentRight` and `extension.indentLeft` to the context menu.
+  - `extension.indentRight` indents the selected lines or the current line by inserting a tab character at the start.
+  - `extension.indentLeft` unindents the selected lines or the current line by checking for and removing a tab character at the start.
+
+## Closing Remarks
+
+This extension was developed using the ChatGPT Dec 15 Version and took about three hours to complete. The AI needed guidance to fix a few bugs, but wrote almost everything by itself.
+
+Thank you for using the Indent from Context Menu Extension!
+
+---
