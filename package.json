@@ -4,6 +4,7 @@
   "description": "Adds to the context menu the ability to indent the selected code lines",
 	"publisher": "hectoralvf",
   "version": "1.0.0",
+  "icon": "./images/icon-128x128.png",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -12,9 +13,9 @@
 		"Other"
 	],
 	"repository": {
-		"type": "git"
+		"type": "git",
+    "url": "https://github.com/Hectoralvf/indent-from-context-menu"
 	},
-  "icon": "./images/icon-128x128.png",
   "activationEvents": [
     "onCommand:extension.indentRight",
     "onCommand:extension.indentLeft"
