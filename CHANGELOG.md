@@ -12,6 +12,10 @@ This changelog lists the changes made to the Indent from Context Menu Extension 
 
 ## List of Changes
 
+- **v1.0.2** (27-12-2022)
+- Added new icon
+- Improved code
+
 - **v1.0.0** (25-12-2022 *Merry Christmas!!*)
   - Initial release of the extension.
   - Added the commands `extension.indentRight` and `extension.indentLeft` to the context menu.
